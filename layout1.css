@@ -1,0 +1,252 @@
+html{
+  box-sizing:inherit;
+}
+body{
+  font-size: 14px;
+  font-family: arial;
+}
+.menu{
+  display: flex;
+  padding: 5px;
+  list-style: none;
+}
+
+            .list1 li {
+                display: inline-block;
+                          }
+            .list1 h1{
+                display: inline-block;
+                width: auto;
+            }
+            ul.list1 a {
+                display: inline-block;
+                width: auto;
+                padding:10px;
+                background-color: white;
+                border: 1px;
+                text-decoration: none;
+                color: gray;
+                text-align: center;
+            }
+            ul.list1 a:hover{
+                background-color: green;
+                color: black;
+}
+.quote1{
+margin: 0px;
+padding: 0px;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  padding: 50px;
+}
+.opt-1{
+  margin: 5px;
+border: 1px solid green;
+width: 180px;
+height:180px;
+padding: 5px;
+background-color: green;
+color: white;
+text-align: left;
+}
+.opt-2{
+  margin: 5px;
+border: 1px solid green;
+width: 180px;
+height:180px;
+padding: 5px;
+background-color: green;
+color: white;
+text-align: left;
+}
+.opt-3{
+  margin: 5px;
+border: 1px solid green;
+width: 180px;
+height:180px;
+padding: 5px;
+background-color: green;
+color: white;
+text-align: left;
+}
+.opt-4{
+margin-: 5px;
+border: 1px solid green;
+width: 180px;
+height:180px;
+padding: 5px;
+background-color: green;
+color: white;
+text-align: left;
+}
+.info1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.info1 .image1{
+  width: auto;
+  margin: 15px;
+  border: 1px solid white;
+  }
+.block-info{
+    width: 40%;
+    margin: 15px;
+    border: 1px solid white;
+    color: gray;
+    background-color: white;
+    text-align: left;
+  }
+.block-info h1{
+  color: black;
+  text-align: left;
+}
+.block-info h2{
+  color: green;
+  text-align: left;
+}
+.quote2{
+margin: 0px;
+padding: 0px;
+}
+h1{
+  text-align: center;
+}
+.info2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;}
+
+  .info2 h2{
+    text-align: left;
+    color: green;
+  }
+  .blok1{
+  margin: 5px;
+  border: 1px solid white;
+  width: 20%;
+  padding: 5px;
+  background-color: white;
+  color: gray;
+  text-align: left;
+  }
+  .blok2{
+    margin: 5px;
+    border: 1px solid white;
+    width: 20%;
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    text-align: left;
+    }
+  .blok3{
+    margin: 5px;
+    border: 1px solid white;
+    width: 20%;
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    text-align: left;
+    }
+  .info2 a:hover{
+        background-color: gray;
+        color: black;
+}
+    .info2 a{
+      display: block;
+      padding: 2px;
+      background-color: green;
+      border: 1px;
+      width: 15px;
+      height: 15px;
+      color: white;
+      text-align: center;
+      }
+      .info3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: green;
+        padding: 50px;
+      }
+
+      .info3 .c1{
+        display: block;
+        border: 1px solid green;
+        padding: 30px;
+        color: white;
+        text-align: left;
+        background-image: url("photos/happy-couple.jpg");
+        width: 40%;
+      }
+      .info3 h1{
+        color: white;
+        text-align: left;
+      }
+      .info3 .c2{
+        display: block;
+        border: 1px solid green;
+        padding: 30px;
+        color: gray;
+        text-align: left;
+        background-color: white;
+        width: 40%;
+      }
+      .c2 h1{
+        text-align: left;
+        color: green;
+      }
+      .people{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;}
+
+    .footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: lightgray;
+      padding: 50px;
+      width: 100%;
+        }
+    .footer ul{
+list-style: none;
+display: inline-block;
+color: gray;
+    }
+    .footer h3{
+color: black;
+    }
+    .footer li a{
+color: gray;
+    }
+    .footer img{
+      width: 30px;
+    }
+  .site{
+    display: inline;
+    color: black;
+  }
+  .site a{
+    color: green;
+  }
